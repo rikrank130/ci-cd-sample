@@ -2,8 +2,8 @@ name: Deploy
 
 on:
   push:
-    branches-ignore:
-      - "**" # 全てのブランチを無視するので、Actions が実行されることはありません
+    branches: ["feature/server-deploy"]
+  workflow_dispatch:
 
 jobs:
   build:

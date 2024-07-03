@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: ["main"]
+    branches: ["feature/github-pages-deploy"]
   workflow_dispatch:
 
 jobs:
