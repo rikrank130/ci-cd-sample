@@ -5,8 +5,8 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      NODE_VERSION: ${{ secrets.NODE_VERSION }}
+    # env:
+    #   NODE_VERSION: ${{ secrets.NODE_VERSION }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -28,7 +28,7 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: build
+          local-dir: build/ # Error: local-dir should be a folder (must end with /)
           remote-dir: /${{ secrets.FTP_DIRNAME }}/deploy-sample/
 
     timeout-minutes: 30
