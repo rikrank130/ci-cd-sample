@@ -1,12 +1,13 @@
 name: Deploy
 
-on: [push]
+on:
+  push:
+    branches-ignore:
+      - "**" # 全てのブランチを無視するので、Actions が実行されることはありません
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    # env:
-    #   NODE_VERSION: ${{ secrets.NODE_VERSION }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
