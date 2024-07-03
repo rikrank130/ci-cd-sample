@@ -15,10 +15,7 @@ jobs:
           echo "<h1>Hello GitHub Pages!</h1>" > build/index.html
       - uses: actions/upload-artifact@v3
         with:
-          name: my_site
-          path: data
-      - uses: actions/upload-pages-artifact@v2
-        with:
+          name: demo_site
           path: data
 
   deploy:
