@@ -1,4 +1,4 @@
-# github actions に触れてみる
+# 概要
 
 github actions を用いたデモになります。
 

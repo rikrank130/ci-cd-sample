@@ -3,9 +3,7 @@
 github actions を使ったサンプルリポジトリです。
 
 1. [概要](./docs/overview.md)
-2. サンプル
-   1. [導入](./docs/sample.md)
-   2. [ホスティング先へのデプロイ（github pages を使った例）](./docs/deploy-pages.md)
-   3. [**AWS環境への自動デプロイ**](./docs/aws-deploy.md)
-   4. [ホスティング先へのデプロイ（レンタルサーバーを使った例）](./docs/deploy-server.md)
-3. [参考文献](./docs/resources.md)
+   1. [github actions に触れてみる](./docs/github-actions-demo.md)
+   2. [CI（継続的インテグレーション）に触れてみる](./docs/ci.md)
+   3. [CD（継続的デリバリー）に触れてみる](./docs/ci.md)
+   4. [CI/CD](./docs/release.md)
