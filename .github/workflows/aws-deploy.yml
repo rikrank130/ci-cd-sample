@@ -5,6 +5,8 @@ on:
     branches: ["feature/aws-deploy"]
     paths:
       - "src/*" # ここはルート（何も指定ナシ）で記載
+  workflow_dispatch:
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
