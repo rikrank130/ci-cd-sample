@@ -23,7 +23,7 @@ CI/CD（継続的インテグレーション/継続的デリバリー）を用�
    1. [資料](./github-actions-demo.md)
 2. パッケージのインストール　〜　ビルドを自動化する
    1. [資料](./)
-3. 実際に納品データを デプロイ環境（AWS）にアップしてみる
+3. Astro + AWS S3（Cloud Front）を用いたデモを触る
    1.
 
 ## 参考文献：
@@ -31,4 +31,3 @@ CI/CD（継続的インテグレーション/継続的デリバリー）を用�
 https://qiita.com/choco_p/items/1bd1b106daee1fbd4449
 https://aws.amazon.com/jp/devops/continuous-integration/
 https://docs.github.com/ja/actions/quickstart
-
