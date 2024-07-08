@@ -2,8 +2,12 @@
 
 github actions を使ったサンプルリポジトリです。
 
+## 構成
+
 1. [概要](./docs/overview.md)
-   1. [github actions に触れてみる](./docs/github-actions-demo.md)
-   2. [CI（継続的インテグレーション）に触れてみる](./docs/ci.md)
-   3. [CD（継続的デリバリー）に触れてみる](./docs/ci.md)
-   4. [CI/CD](./docs/release.md)
+   1. github actions を使って、簡単なデモを触る
+      1. [資料](./github-actions-demo.md)
+   2. パッケージのインストール　〜　ビルドを自動化する
+      1. [資料](./)
+   3. Astro + AWS S3（Cloud Front）を用いたデモを触る
+      1. [資料](./)
